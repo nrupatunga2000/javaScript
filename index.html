@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal expences</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+    </style>
+</head>
+<body>
+    <button id="btnCounter">+</button>
+    <input type="text">
+</body>
+ <script>
+     //take a number which starts with zero
+     let counter = 0;
+        
+        console.log(counter);
+
+        //incriment the number so create a function called counterIncriment
+        function counterIncriment() {
+            counter = counter+1;
+            console.log(counter);
+        }
+        //get the button element
+       const element =  document.querySelector("#btnCounter")
+       
+        //listen to an event
+        element.addEventListener('click',counterIncriment,false)
+        
+        
+    </script>
+</html>

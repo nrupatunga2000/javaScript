@@ -1,0 +1,27 @@
+body{
+    background-color: rgba(0, 0, 0, 0.625);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    width: auto;
+    margin-left: 10px;
+    
+}
+
+.btn{
+    background-color:rgba(112, 107, 107, 0.386);
+    color: white;
+    font-size: larger;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+.controls{
+    display: flex;
+    justify-content: center;
+}
+
+.btn:hover{
+    color: rgb(13, 248, 64);
+}

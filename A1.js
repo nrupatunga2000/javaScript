@@ -5,12 +5,14 @@ document.addEventListener("DOMContentLoaded", function() {
     const pause = document.getElementById("pause");
     const next = document.getElementById("next");
 
+    //this is to create an array of songs to create a playlist
     const audioSources = [
         "Kambada.m4a",
         "yava_mohana.opus",
         "yehasivadia.m4a"
     ];
 
+    
     let currentTrackIndex = 0;
 
     function playAudio() {

@@ -18,8 +18,17 @@
     <button id="btnCounter">+</button>
     <input type="text">
     <audio controls src="AUD-20221106-WA0013.m4a"></audio>
+    <button id="play"> play</button>
 </body>
  <script>
+    let play = document.getElementById("play")
+    function playMusic(){
+        let audio = new Audio("AUD-20240131-WA0007.opus")
+        audio.play()
+    }
+    play.addEventListener("click",playMusic);
+
+
      //take a number which starts with zero
      let counter = 0;
         

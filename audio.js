@@ -1,2 +1,5 @@
-const audio = new Audio('.\javaScript\AUD-20221106-WA0013.m4a');
-audio.play()
+const kambada = new Audio("Kambada.m4a");
+const  yavaMohana = new Audio("yava_mohana.opus")
+const yehasi = new Audio("yehasivadia.m4a")
+
+const prevBtn = document.querySelector()
